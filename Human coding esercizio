@@ -1,0 +1,79 @@
+Requisiti
+piace a Siliva
+è Disponibile 
+PRIME-Consegna entro oggi
+Budget
+
+items:
+lampada da tavolo
+stilografica
+libro
+
+Dobbiamo ordinare oggi per domani
+
+
+Vado sul Browser
+mi dirigo sull'url amazon.it
+
+3.0  estratto il primo prodotto dalla lista tranne quelli già scartati.
+ 3.a inserisco nell'imput il nome del prodotto (lampada da tavolo)
+ 3.b avvio ricerca
+ 3.C VERIFICO CHE SIA DISPONIBILE nella lista ci sia qualcosa che possa piacere a silvia 
+ 3.C VERIFICO CHE  nella lista ci sia qualcosa che possa piacere a silvia 
+  SE E' disponibile vado avanti altrimenti AGGIUNGO IL PRODOTTO ALLA LISTA DEI PRODOTTI SCARTATI e torno al punto 3.0
+ 3.d Apro pagina del prodotto
+ 3.e Verifico che rispetti LA CONDIZIONE budget e prime. Rispetta il budget? (true) ha il prime? (false)
+  SE E' SOTTO O PARI AL BUDGET E SOLO SE HA IL PRIME LO ACQUISTO.
+  ALTRIMENTI AGGIUNGO IL PRODOTTO ALLA LISTA DEI PRODOTTI SCARTATI e TORNO AL PUNTO 3.0
+
+Termino la ricerca del prodotto
+Aggiiungo il prodotto al carrello
+vado al pagamento 
+Completo l'acquisto
+verifico che l'ordine sia confermato
+SE SI
+Spero arrivi in tempo
+SE NON ARRIVA IN TEMPO:
+a.invento una scusa e non vado al compleanno
+b.vado al compleanno senza
+
+ 
+
+prima ricerca:
+3.a inserisco nell'imput il nome della lampada da tavolo 
+ 3.b avvio ricerca
+ 3.C VERIFICO CHE SIA DISPONIBILE. e disponibile? si
+  SE E' disponibile vavo avanti altrimenti AGGIUNGO IL PRODOTTO ALLA LISTA DEI PRODOTTI SCARTATI e torno al punto 3.0
+ 3.d Apro pagina del prodotto
+ 3.e Verifico che rispetti LA CONDIZIONE budget e prime.
+  Rispetta il budget? (si) 
+  *ha il prime? (no)
+ 3.f voglio continuare a cercare? si
+
+seconda ricerca:
+3.a inserisco nell'imput penna stilografica 
+ 3.b avvio ricerca
+ 3.C VERIFICO CHE SIA DISPONIBILE. e disponibile? si
+   vavo avanti 
+ 3.d Apro pagina del prodotto
+ 3.e Verifico che rispetti LA CONDIZIONE budget e prime.
+  Rispetta il budget? (no) 
+  ha il prime? (si)
+   3.f voglio continuare a cercare? si
+
+terza ricerca:
+3.a inserisco nell'imput libro clasico 
+ 3.b avvio ricerca
+ 3.C VERIFICO CHE SIA DISPONIBILE. e disponibile? si
+   vavo avanti 
+ 3.d Apro pagina del prodotto
+ 3.e Verifico che rispetti LA CONDIZIONE budget e prime. 
+ Rispetta il budget? (si) 
+ ha il prime? (si)
+Termino la ricerca del prodotto
+Aggiungo il prodotto al carrello
+vado al pagamento 
+Completo l'acquisto
+Spero arrivi in tempo
+
+ Fine .Acquisto o arriva ()
